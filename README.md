@@ -12,6 +12,15 @@ The tool takes the following data as input:
 `policy-testdrive` evaluates the request and prints the validation response to
 the standard output.
 
+## Install
+
+You can install the `chimera-policy-testdrive` with the `cargo`
+package manager:
+
+```console
+$ cargo install --git https://github.com/chimera-kube/chimera-policy-testdrive.git --branch main
+```
+
 ## Example
 
 We want to test this [pod toleration policy](https://github.com/chimera-kube/pod-toleration-policy)
